@@ -1,3 +1,16 @@
 /***
 author: CSLUNI
 */
+body, html {
+	width: 100%;
+	background: #bbb;
+	color:#FFF;
+}
+
+#mapa {
+	margin: 0 auto;
+	width: 90%;
+	height: 500px;
+	border: 2px solid #FFF;
+	box-shadow: 1px 1px 10px #000;
+}
