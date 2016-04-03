@@ -47,7 +47,7 @@ window.map="";
       if (infoWindow !== void 0) { infoWindow.close(); }
          infoWindow = new google.maps.InfoWindow({
             content: "<div id='up'><div id='up_right'><table style='font-size: 0.95em;'><tbody><tr><td>Sensor Prueba</td></tr><tr>"+
-            "<td><b>SISTEMA DE SENSORES LIMA</b></td></tr></table></div><div id='up_left'><img src='img/centros_big.png'/></div></div>"+"<hr>"+"<table style='font-size: 0.875em;'><tr><td><i class='fa fa-map-marker fa-1x'></i></td><td>"+data.direccion+", "+data.distrito+", "+data.provincia+", "+data.departamento+"</td>"+
+            "<td><b>SmartFlow Camera</b></td></tr></table></div><div id='up_left'><img src='img/centros_big.png'/></div></div>"+"<hr>"+"<table style='font-size: 0.875em;'><tr><td><i class='fa fa-map-marker fa-1x'></i></td><td>"+data.direccion+", "+data.distrito+", "+data.provincia+", "+data.departamento+"</td>"+
           "</tr><tr><td><i class='fa fa-phone fa-1.5x'></i></td><td>Entrantes: 30 vehiculos/min</td></tr><tr><td><i class='fa fa-clock-o fa-1x'></i></td><td>Salientes: 62 vehiculos/min</td>"+
           "</tr><tr><td><i class='fa fa-user fa-1x'></i></td><td>Municipalidad de LIMA</td></tr></tbody></table>",
           maxHeight: 400,
